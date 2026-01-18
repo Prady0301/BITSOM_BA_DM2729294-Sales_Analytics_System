@@ -55,7 +55,6 @@ def main():
         api_handler.save_enriched_data(enriched_data, 'data/enriched_sales_data.txt')
 
         # [8/10] Generate comprehensive report
-        # We prepare the summary dictionary expected by your new data_processor
         print("[8/10] Generating comprehensive report...")
         enrichment_metrics = {'count': matches}
         data_processor.generate_sales_report(valid_transactions, enriched_data)
