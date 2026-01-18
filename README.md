@@ -1,3 +1,7 @@
+
+
+# BITSOM_BA_DM2729294-Sales_Analytics_System
+
 # Sales Analytics System
 An automated Python-based data pipeline that processes messy e-commerce sales records, validates transaction data, enriches records using the DummyJSON API, and generates a comprehensive business intelligence report.
 ## Technical Note: API Enrichment Mapping
@@ -26,4 +30,3 @@ sales-analytics-system/
 │   ├── data_processor.py # Analytics logic [cite: 12]
 │   └── api_handler.py    # API integration [cite: 13]
 └── output/              # Generated reports [cite: 16]
-    └── sales_report.txt
