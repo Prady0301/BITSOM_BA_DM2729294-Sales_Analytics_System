@@ -1,3 +1,6 @@
+### Technical Note: API Enrichment Mapping
+### The provided dataset contains ProductIDs in the range `P101` to `P110`. 
+### However, the DummyJSON API (standard limit) returns products with IDs `1` to `100`. 
 import requests
 import re
 
