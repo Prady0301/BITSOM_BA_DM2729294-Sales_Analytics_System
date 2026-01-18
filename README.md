@@ -4,6 +4,7 @@
 
 # Sales Analytics System
 An automated Python-based data pipeline that processes messy e-commerce sales records, validates transaction data, enriches records using the DummyJSON API, and generates a comprehensive business intelligence report.
+
 ## Technical Note: API Enrichment Mapping
 The provided dataset contains ProductIDs in the range `P101` to `P110`[cite: 568]. However, the DummyJSON API (standard limit) returns products with IDs `1` to `100`[cite: 301, 311]. 
 
